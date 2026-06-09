@@ -4,9 +4,109 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Centurion Oversight</title>
+<meta name="description" content="Centurion Oversight builds the infrastructure of trust for autonomous systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<main class="hero"></main>
+<header class="site-header" aria-label="Primary navigation">
+  <a class="brand" href="#top" aria-label="Centurion Oversight home">
+    <span class="brand-mark">⌂</span>
+    <span>Centurion Oversight</span>
+  </a>
+  <nav>
+    <a href="#principles">Principles</a>
+    <a href="#vhold">V-Hold</a>
+    <a href="#building">Building</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero__shade"></div>
+    <div class="hero__content">
+      <p class="eyebrow">Centurion Oversight</p>
+      <h1>Oversight for the Age of Agents</h1>
+      <p class="lede">We build the infrastructure of trust for autonomous systems.</p>
+      <div class="actions">
+        <a class="button button--primary" href="#vhold">Explore V-Hold</a>
+        <a class="button button--ghost" href="#building">See the Architecture</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section principles" id="principles">
+    <div class="section__intro">
+      <p class="eyebrow">Operating Doctrine</p>
+      <h2>Trust is not a vibe. It is a record.</h2>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Evidence First</h3>
+        <p>We log what happened before we claim what it means.</p>
+      </article>
+      <article class="card">
+        <h3>Trust Is Earned</h3>
+        <p>Authority grows from observed behavior, not promises.</p>
+      </article>
+      <article class="card">
+        <h3>Tested Before Trusted</h3>
+        <p>Systems prove their reliability before they receive more freedom.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section status" id="vhold">
+    <div class="status__copy">
+      <p class="eyebrow">V-Hold</p>
+      <h2>The gatehouse for agent decisions.</h2>
+      <p>V-Hold receives a proposed action, records the request, returns a decision, and preserves the audit trail. It is intentionally boring at the core: one proposal, one decision, one record.</p>
+    </div>
+    <div class="status-panel" aria-label="V-Hold current status">
+      <div class="status-row"><span>HTTP API</span><strong>Operational</strong></div>
+      <div class="status-row"><span>SQLite Persistence</span><strong>Operational</strong></div>
+      <div class="status-row"><span>Audit Trail</span><strong>Operational</strong></div>
+      <div class="status-row status-row--next"><span>Next</span><strong>Extension Integration</strong></div>
+    </div>
+  </section>
+
+  <section class="section building" id="building">
+    <div class="section__intro">
+      <p class="eyebrow">Building in Public</p>
+      <h2>Engineering notes from the tower.</h2>
+    </div>
+    <div class="log">
+      <article>
+        <span>June 2026</span>
+        <h3>Decision schema unified.</h3>
+        <p>One canonical DecisionRecord replaced competing paths.</p>
+      </article>
+      <article>
+        <span>June 2026</span>
+        <h3>Persistence added.</h3>
+        <p>Proposals and decisions now have an inspectable local audit trail.</p>
+      </article>
+      <article>
+        <span>June 2026</span>
+        <h3>Evidence before wisdom.</h3>
+        <p>Trust history starts as a record, not a pretend intelligence layer.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <p class="eyebrow">The Watchtower</p>
+    <h2>Someone has to keep watch.</h2>
+    <p>Centurion Oversight exists for the world where software agents do more than answer questions. When autonomous systems act, they need boundaries, records, review, and consequence.</p>
+  </section>
+</main>
+
+<footer>
+  <span>Centurion Oversight</span>
+  <span>Built for accountable autonomy.</span>
+</footer>
 </body>
 </html>
